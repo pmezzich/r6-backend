@@ -7,7 +7,7 @@ import (
     "net/http"
     "os"
 
-    "r6-backend/r6dissect/replay"
+    "./r6dissect/replay"
 )
 
 func uploadHandler(w http.ResponseWriter, r *http.Request) {
