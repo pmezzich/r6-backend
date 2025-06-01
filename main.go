@@ -30,7 +30,7 @@ func uploadHandler(w http.ResponseWriter, r *http.Request) {
     io.Copy(dst, file)
 
     // Call r6-dissect parser
-    matchData, err := replay.ParseMatchReplay(tempPath)
+    matchData, err := r6dissect.ParseMatchReplay(tempPath)
     if err != nil {
         http.Error(w, "Error parsing replay: "+err.Error(), http.StatusInternalServerError)
         return
