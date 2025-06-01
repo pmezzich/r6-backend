@@ -1,4 +1,4 @@
-package replay
+package r6dissect
 
 import (
     "os"
