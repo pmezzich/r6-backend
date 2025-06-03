@@ -1,8 +1,0 @@
-github.com/klauspost/compress v1.17.5 h1:xTAd1TVbwD2TV5A2gexv4BxqsBzHLPON9H8vhGhnvVU=
-github.com/klauspost/compress v1.17.5/go.mod h1:0UEQ0XUKf9r7Ae+UFnGyk7BLwXYFjXIXiESF6aZVrLg=
-github.com/rs/zerolog v1.30.0 h1:bPZKLC08nFqGqz9UynG3eYxfZF08c2E0NoH06QeK2aY=
-github.com/rs/zerolog v1.30.0/go.mod h1:gX6VYfqvQelVWTJ4H9CHpQ+3Qbo3aAvPYjIGD8Oyzvo=
-github.com/xuri/excelize/v2 v2.6.1 h1:UJm9qZQluuImRO2R1NF58jR8YUpYZyWWY+o6R3dZZgY=
-github.com/xuri/excelize/v2 v2.6.1/go.mod h1:9fflpcN8geqlu4dk6o+plA0K+uz5KnY+pYlMCUUX6zU=
-golang.org/x/tools v0.15.0 h1:3xkM27ezr5n7p4OExYo1BfTr8OYMB4Snpf10cAz9mpI=
-golang.org/x/tools v0.15.0/go.mod h1:02Yic3k2OE+Mb8RhiW3DAJMc6AqURxakXqMF7AeZP/4=
