@@ -5,6 +5,6 @@
 //
 // go:build tools
 
-package dissect
+package r6dissect
 
 import _ "golang.org/x/tools/go/packages"
