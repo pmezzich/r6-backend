@@ -1,4 +1,4 @@
-package dissect
+package r6dissect
 
 import (
 	"github.com/rs/zerolog/log"
