@@ -1,4 +1,4 @@
-package dissect
+package r6dissect
 
 const (
 	Y7S1        int = 6884476
