@@ -7,9 +7,11 @@ import (
 	"github.com/klauspost/compress/zstd"
 )
 
-var ErrInvalidFile = errors.New("dissect: not a dissect file")
-var ErrInvalidFolder = errors.New("dissect: not a match folder")
-var ErrInvalidStringSep = errors.New("dissect: invalid string separator")
+var (
+	ErrInvalidFile      = errors.New("dissect: not a dissect file")
+	ErrInvalidFolder    = errors.New("dissect: not a match folder")
+	ErrInvalidStringSep = errors.New("dissect: invalid string separator")
+)
 
 // Ok returns true if err only pertains to EOF (read was successful).
 func Ok(err error) bool {
