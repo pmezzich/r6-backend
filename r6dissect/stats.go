@@ -13,17 +13,6 @@ type PlayerRoundStats struct {
 	OneVx              int     `json:"1vX,omitempty"`
 }
 
-type PlayerMatchStats struct {
-	Username           string  `json:"username"`
-	TeamIndex          int     `json:"-"`
-	Rounds             int     `json:"rounds"`
-	Kills              int     `json:"kills"`
-	Deaths             int     `json:"deaths"`
-	Assists            int     `json:"assists"`
-	Headshots          int     `json:"headshots"`
-	HeadshotPercentage float64 `json:"headshotPercentage"`
-}
-
 // OpeningKill returns the first player to kill.
 func (r *Reader) OpeningKill() MatchUpdate {
 	for _, a := range r.MatchFeedback {
