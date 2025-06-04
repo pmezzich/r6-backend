@@ -12,6 +12,10 @@ func PrintStats(stats []PlayerRoundStats) {
 		fmt.Println()
 	}
 }
+import (
+    "fmt"
+    // other imports
+)
 
 // OpeningKill returns the first player to kill.
 func (r *Reader) OpeningKill() MatchUpdate {
