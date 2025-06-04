@@ -1,4 +1,4 @@
-package dissect
+package r6dissect
 
 type PlayerRoundStats struct {
 	Username           string  `json:"username"`
