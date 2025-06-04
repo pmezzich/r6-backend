@@ -1,18 +1,5 @@
 package r6dissect
 
-type PlayerRoundStats struct {
-	Username           string  `json:"username"`
-	TeamIndex          int     `json:"-"`
-	Score              int     `json:"score"`
-	Operator           string  `json:"-"`
-	Kills              int     `json:"kills"`
-	Died               bool    `json:"died"`
-	Assists            int     `json:"assists"`
-	Headshots          int     `json:"headshots"`
-	HeadshotPercentage float64 `json:"headshotPercentage"`
-	OneVx              int     `json:"1vX,omitempty"`
-}
-
 // OpeningKill returns the first player to kill.
 func (r *Reader) OpeningKill() MatchUpdate {
 	for _, a := range r.MatchFeedback {
