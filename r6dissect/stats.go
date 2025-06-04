@@ -1,5 +1,18 @@
 package r6dissect
 
+func PrintStats(stats []PlayerRoundStats) {
+	for i, player := range stats {
+		fmt.Printf("Player %d: %s\n", i+1, player.Name)
+		fmt.Printf("  Kills: %d\n", player.Kills)
+		fmt.Printf("  Deaths: %d\n", player.Deaths)
+		fmt.Printf("  Assists: %d\n", player.Assists)
+		fmt.Printf("  Headshots: %d\n", player.Headshot)
+		fmt.Printf("  Plants: %d\n", player.Plants)
+		fmt.Printf("  Trades: %d\n", player.Trades)
+		fmt.Println()
+	}
+}
+
 // OpeningKill returns the first player to kill.
 func (r *Reader) OpeningKill() MatchUpdate {
 	for _, a := range r.MatchFeedback {
